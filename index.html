@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-اكادميه نوفيل-Nouvil</title>
+        <!-- website img -->
+        <link rel="icon" href="img/n.jpg">
+    <!-- link animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- linl style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- impor MDB -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <span class="up"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff; background: none;"></i></span>
+    <!-- particles-js -->
+    <div id="particles-js">
+        <span class="up"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff; background: none;"></i></span>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" style=" position: fixed; width: 100%;  z-index: 40;">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" style="color: #FFF;" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto">
+                        <!-- Right elements -->
+                        <div class="d-flex align-items-center">
+                            <!-- Avatar -->
+                            <div style="margin-right: 10px;" class="dropdown">
+                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                                    id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                        height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                                    <li>
+                                        <a class="dropdown-item" href="#">My profile</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="btn">اشترك</button>
+                            </div>
+                            <span class="input-group-text border-0" id="search-addon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                        <!-- Right elements -->
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                <span style="color: red; font-size: 12px;">new</span>
+                                Css game
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="cssFlex.html">Flex Box</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                خريطه تعلم البرمجة
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="frontend.html">Front End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="backend.html">Back End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="fullstack.html">Full Stack <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="cyber.html">الامن السيبرانى</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="jsTrack.html">مسار الجافاسكريبت</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Problem Solving
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="problrmSolving.html">Problem Solving</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c.html">C</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c++.html">C++</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="python.html">Python</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="html.html">HTML</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="css.html">CSS</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="algorithms.html">Algorithms</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="allcourses.html">All Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+                    <h2 style="color: #FFF;font-size: 50px;"><span style="color: #4d7095;">N</span>ouvil</h2>
+                </a>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+
+        <!-- landing page -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine">
+            <div class="container">
+                <div class="landing">
+                    <h3>HELLO,MY NAME IS</h3>
+                    <h1>FADY ADEL</h1>
+                    <h4>اكاديمية نوفيل لتعلم البرمجة</h4>
+                    <br>
+                    <div class="icon" style="background: none;">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- particles-js -->
+    <!-- tracks -->
+    <div class="container">
+        <div class="row">
+            <div class="tracks">
+                <span style="color:#2c3e50; position: relative;">Tracks</span>
+                <h2 style="color: #FFF; position: absolute;">Tracks</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div data-aos="fade-left" data-aos-duration="1000">
+                <p>التخصصات الاكثر شيوعاً في الاكادمية</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
+            <div class="container">
+                <div class="row reveal">
+                    <a class="col card " href="frontend.html">
+                        <h4>هنا ستتعلم تصميم مواقع الويب</h4>
+                        <i class="fa-solid fa-icons " style="color: #ffffff; font-size:50px; background: none;"></i>
+                        <h3>Front End</h3>
+                        <h4 style="font-size: 20px;">WEB</h4>
+                    </a>
+                    <a class="col card " href="backend.html">
+                        <h4>هنا ستتعلم برمجة مواقع الويب</h4>
+                        <i class="fa-solid fa-wand-magic-sparkles fa-2xl"
+                            style="color: #ffffff; font-size:50px; background: none;"></i>
+                        <h3>Back End</h3>
+                        <h4 style="font-size: 20px;">WEB</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tracks -->
+
+    <!-- Quezez -->
+    <div class="container">
+        <div class="row">
+            <div class="tracks">
+                <span style="color:#2c3e50; position: relative;">Quizzes</span>
+                <h2 style="color: #FFF; position: absolute;">Quizzes</h2>
+            </div>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+            <div class="row">
+                <a class="col  quiz" href="c.html">
+                    <i class="fa-solid fa-c fa-2xl"
+                        style="color: #FFF;font-size: 100px;align-items: center;justify-content: center;display: flex;margin: auto;background: none;margin-top: 70px;"></i>
+                    <h3>C Quizzes</h3>
+                    <p>
+                        يمكنك الاختيار بين انواع التحديات الموجودة في لغة الـ C و يمكنك تحدي نفسك في كل جزئية على حدى
+                        حيث تم
+                        تقسيم التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                    </p>
+                </a>
+                <a class="col quiz" href="javascript.html">
+                    <i class="fa-brands fa-square-js fa-2xl"
+                        style="color: #FFF;font-size: 100px;align-items: center;justify-content: center;display: flex;margin: auto;background: none;margin-top: 70px;"></i>
+                    <h3>JavaScript Quizzes</h3>
+                    <p>
+                        يمكنك الاختيار بين انواع التحديات الموجودة في الجافا سكريبت ويمكنك تحدي نفسك في كل جزئية على حدى
+                        حيث
+                        تم تقسيم التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                    </p>
+                </a>
+                <a class="col quiz" href="python.html">
+                    <i class="fa-brands fa-python fa-2xl"
+                        style="color: #FFF;font-size: 100px;align-items: center;justify-content: center;display: flex;margin: auto;background: none;margin-top: 70px;"></i>
+                    <h3>Python Quizzes</h3>
+                    <p>
+                        يمكنك الاختيار بين انواع التحديات الموجودة في البايثون ويمكنك تحدي نفسك في كل جزئية على حدى حيث
+                        تم تقسيم التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+            <div class="row">
+                <a class="col quiz" href="css.html">
+                    <i class="fa-brands fa-css3-alt fa-2xl"
+                        style="color: #FFF;font-size: 100px;align-items: center;justify-content: center;display: flex;margin: auto;background: none;margin-top: 70px;"></i>
+                    <h3>CSS Quizzes</h3>
+                    <p>
+                        كثر من 10 اسئلة في لغة CSS باللغة العربية لكي يتمكن الطالب العربي الذي ينوي دخول عالم الويب من
+                        تثبيت
+                        كل ما تعلمه من CSS في رأسه.
+                    </p>
+                </a>
+                <a class="col quiz" href="html.html">
+                    <i class="fa-brands fa-html5 fa-2xl"
+                        style="color: #FFF;font-size: 100px;align-items: center;justify-content: center;display: flex;margin: auto;background: none;margin-top: 70px;"></i>
+                    <h3>HTML Quizzes</h3>
+                    <p>
+                        أكثر من 35 سؤال في لغة HTML باللغة العربية لكي يتمكن الطالب العربي الذي ينوي دخول عالم الويب من
+                        تثبيت كل ما تعلمه من HTML في رأسه.
+                    </p>
+                </a>
+                <a class="col quiz" href="c++.html">
+                    <i class="fa-solid fa-copyright fa-2xl"
+                        style="color: #FFF;font-size: 100px;align-items: center;justify-content: center;display: flex;margin: auto;background: none;margin-top: 70px;"></i>
+                    <h3>C++ Quizzes</h3>
+                    <p>
+                        يمكنك الاختيار بين انواع التحديات الموجودة في C++ و يمكنك تحدي نفسك في كل جزئية على حدى حيث تم
+                        تقسيم
+                        التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Quezez -->
+    <!-- learning map -->
+    <div class="container">
+        <div class="row">
+            <div class="tracks">
+                <span style="color:#2c3e50; position: relative;">Learning Map</span>
+                <h2 style="color: #FFF; position: absolute;">Learning Map</h2>
+            </div>
+        </div>
+        <br>
+        <div class="learning">
+            <div class="row">
+                <div class="col col-6 learning-map">
+                    <h3>NOUVIL ACADEMY</h3>
+                    <h5>كيف تستفيد اقصى استفادة من اكادمية نوفيل؟</h5>
+                    <br>
+                    <br>
+                    <span>#1</span> <span class="span2">كورسات البرمجة</span>
+                    <p>
+                        يوجد هنا العديد من الدورات التعليمية التي تبدء معك من الصفر فيمكنك البدء بها
+                    </p>
+                    <br>
+                    <span>#2</span>
+                    <span>حل المشكلات</span>
+                    <p>
+                        بعد الانتهاء من تعلم لغة برمجة او تخصص برمجي معين , يجب عليك ان تختبر فهمك و استيعابك لما تعلمته
+                        , و
+                        يوجد هنا قسم الـ problem solving الذي يحتوي على العديد من الاختبارات و التحديات
+                    </p>
+                    <br>
+                    <span>#3</span>
+                    <span>عمل مشاريع</span>
+                    <p>
+                        بعد اكمالك التخصص البرمجي الذي تعلمته في اكادمية نوفيل , يمكنك الان عمل مشاريع لكي يتم تتويج
+                        مجهود:ك
+                        , و يمكنك ارسال هذه المشاريع على المجموعة الخاصة بنا على فيسبوك لكي يتم تقيمها من الاف المبرمجين
+                    </p>
+                </div>
+                <div class="col col-6 img">
+                    <img src="img/pexels-photo-5473957.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- learning map -->
+
+    <!-- courses -->
+    <div class="container">
+        <div class="row">
+            <div class="tracks">
+                <span style="color:#2c3e50; position: relative;">courses</span>
+                <h2 style="color: #FFF; position: absolute;">courses</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <div class="row">
+                <a class="col course" href="cssC.html">
+                    <p>
+                        ستتعلم لغة css & css3 بالطبيقات العملية لكي تكون قادر على تنسيق اي صفحة ويب و تجميلها و اضافة
+                        الكثير
+                        من التأثيرات الجميلة في صفحة الويب من خلال ال css
+                    </p>
+                    <img src="img/css-3.svg">
+                    <h3>CSS</h3>
+                </a>
+                <a class="col course" href="htmlC2.html">
+                    <p>
+                        ستتعلم لغة html & html5 بالطبيقات العملية لكي تكون قادر على بناء هيكل ویب کامل و تحدید و معرفة
+                        جميع
+                        عناصر html و التفريق بينهم و متى يتم استخدام كل واحد فيهم
+                    </p>
+                    <img src="img/html-5.svg">
+                    <h3>HTML</h3>
+                </a>
+                <a class="col course" href="cs50.html">
+                    <p>
+                        cs50 هو اقوى مناهج البرمجة في العالم سيتم تقديمة باللغة العربية بواسطة عبدالرحمن جمال و الكورس
+                        بالطبع في الاساس مقدم من جامعه هارفارد في علوم الحاسب تقديم دكتور ديفيد
+                    </p>
+                    <img src="img/coding.svg">
+                    <h3>Cs50</h3>
+                </a>
+            </div>
+            <div class="row">
+                <a class="col course2" href="django.html">
+                    <p>
+                        ستتعلم اطار عمل django بشكل كامل حيث ستتعلم جميع اساسيات الاطار بحيث تستطيع عمل اي شئ في تتخيله
+                        في
+                        الويب و الباك اند تحديداً فاطار العمل هذا مخصص للمبرمجين
+
+                        في المقام الاول
+                    </p>
+                    <img src="img/python-2.svg">
+                    <h3>Django</h3>
+                </a>
+                <a class="col course2" href="pythonC.html">
+                    <p>
+                        هذا الكورس مخصص للاشخاص المبتدئين اللذين يريدوا تعلم البايثون لعمل اشياء عديدة به سواء مواقع ويب
+                        او
+                        دخول الذكاء الاصطناعي او تحليل البيانات وغيره من المجالات فهذا الكورس محدث باستمرار
+                    </p>
+                    <img src="img/python.svg">
+                    <h3>Python</h3>
+                </a>
+            </div>
+            <div class="row">
+                <a class="col course" href="JsC.html">
+                    <p>
+                        كورس الجافا سكريبت المقدم من اكاديمية نوفيل يعتبر واحد من اهم كورسات البرمجة و تعتبر جافا سكريبت
+                        اهم
+                        خطوة لك في الفرونت اند ايضا يمكنك استخدامها في الباك اند و غيرها من ! التخصصات
+                    </p>
+                    <img src="img/512px-Unofficial_JavaScript_logo_2.svg.webp">
+                    <h3>JavaScript</h3>
+                </a>
+                <a class="col course" href="bootstrapC.html">
+                    <p>
+                        بوتستراب Bootstrap هي إحدى أشهر المكتبات التي يستخدمها مبرمجو المواقع الإلكترونية على الإطلاق،
+                        حيث
+                        أن تطوير المواقع بشكله الحديث لم يعد يحتاج لإعادة كتابة كل حركة وكل عنصر من صفحات الموقع
+                    </p>
+                    <img src="img/bootstrap.svg">
+                    <h3>Bootstrap</h3>
+                </a>
+                <a class="col course" href="#">
+                    <p>
+                        ووردبريس هو نظام إدارة محتوى إلكتروني مفتوح المصد هدفه هو بناء صفحات الويب و ادارتها و تنظیمها
+                        بواسطة لوحة تحكم لتسهيل الامر على الاشخاص الغير مبرمجين ليتمكنوا من بناء صفحات الويب بكل سهولة
+                    </p>
+                    <img src="img/wordpress.svg">
+                    <h3>wordpress</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- courses -->
+
+    <!-- about -->
+    <div class="container">
+        <div class="row">
+            <div class="tracks">
+                <span style="color:#2c3e50; position: relative;">About</span>
+                <h2 style="color: #FFF; position: absolute;">About</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about">
+            <div class="row">
+                <div class="col col-6">
+                    <div class="back">
+                        <h4>ما هى نوفيل؟</h4>
+                        <h5>نوفيل هو كيان تم تأسيسه بهدف تعليم البرمجة أون لاین بالمجان فقهي هذه الاكادمية توجد دورات
+                            تعليمية كثيرة سواء مكتوبة أو مرتية أو الاثنين بالاضافة إلى بنك اسئلة في اغلب لغات البرمجة
+                            يساعد هذا الطالب في فهم مادته البرمجية بشكل كبير، هنا يوجد تخصصات كثيرة مثل الويب فرونت اند
+                            و باك اند كذلك يوجد اساسيات البرمجة التي تهدف إلى تأسيس الطالب في البرمجة وغيرها من التخصصات
+                            المهمة.</h5>
+                    </div>
+                </div>
+                <div class="col col-6 text">
+                    <h2>NOUVIL</h2>
+                    <span>تخصصات برمجية عديدة</span>
+                    <p>تقدم أكادمية نوفيل تخصصات برمجية كثيرة و يمكنك تصفح الاكادمية و اختيار التخصص المناسب لك و دراسته
+                        بالمجان.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+
+    <!-- footer -->
+    <footer style="background-color: #deded5;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #fff;">Social Media</h5>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #FFF;text-align: left;">Site Menu</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff;text-align: center;">Home</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Courses</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">About Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Contact Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Blog</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Privacy Policy</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-1" style="letter-spacing: 2px; color: #FFF;">Nouvil</h5>
+                    <br>
+                    <h6 style="color: #FFF; font-size: 25px;">اكادمية نوفيل لتعليم البرمجة</h6>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="color: #FFF;">
+            Created By:
+            <a style="color: #4d7095;"> Fady Adel</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+<!-- animation scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- js files -->
+<script src="js/index.js"></script>
+<!-- particles js files -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<!-- bootstrap -->
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+
+</html>

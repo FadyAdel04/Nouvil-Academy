@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعلم ال problem solving بالعربية</title>
+        <!-- website img -->
+        <link rel="icon" href="img/n.jpg">
+    <!-- link animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- linl style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- impor MDB -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <span class="up"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff; background: none;"></i></span>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" style=" position: fixed; width: 100%;  z-index: 40;">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" style="color: #FFF;" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto">
+                        <!-- Right elements -->
+                        <div class="d-flex align-items-center">
+                            <!-- Avatar -->
+                            <div style="margin-right: 10px;" class="dropdown">
+                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                                    id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                        height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                                    <li>
+                                        <a class="dropdown-item" href="#">My profile</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="btn">اشترك</button>
+                            </div>
+                            <span class="input-group-text border-0" id="search-addon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                        <!-- Right elements -->
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                <span style="color: red; font-size: 12px;">new</span>
+                                Css game
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="cssFlex.html">Flex Box</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                خريطه تعلم البرمجة
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="frontend.html">Front End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="backend.html">Back End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="fullstack.html">Full Stack <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="cyber.html">الامن السيبرانى</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="jsTrack.html">مسار الجافاسكريبت</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Problem Solving
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="problrmSolving.html">Problem Solving</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c.html">C</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c++.html">C++</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="python.html">Python</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="html.html">HTML</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="css.html">CSS</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="algorithms.html">Algorithms</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="allcourses.html">All Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+                    <h2 style="color: #FFF;font-size: 50px;"><span style="color: #4d7095;">N</span>ouvil</h2>
+                </a>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">الرئيسة</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Problem Solving</li>
+        </ol>
+    </nav>
+    <br>
+    <br>
+    <!-- problem-page -->
+    <div class="problem-page">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-down" data-aos-duration="3000">
+                    <div class="tracks">
+                        <span style="color:#2c3e50; position: relative;">Problem Solving</span>
+                        <h2 style="color: #FFF; position: absolute;">Problem Solving</h2>
+                    </div>
+                </div>
+                <p
+                    style="text-align: center; display: flex; align-items: center; justify-content: center; margin: auto;">
+                    اول موقع عربي لحل المشكلات البرمجية
+                </p>
+                <h4>
+                    لغات برمجية متوفر لها problem solving
+                </h4>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <a href="c.html">
+                            <span>c</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="c++.html">
+                            <span>c++</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="python.html">
+                            <span>python</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="javascript.html">
+                            <span>javascript</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="html.html">
+                            <span>html</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="css.html">
+                            <span>css</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="algorithms.html">
+                            <span>الخوارزميات و هياكل البيانات</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <p
+                style="color: #FFF; font-size: 25px; margin-top: 10px; display: flex; align-items: center; justify-content: right; margin: auto;">
+                نوفيل هو اول موقع عربي يقدم problem solving باللغة العربية في جميع لغات البرمجة حيث ستخد هنا:
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="problem">
+                        <div class="tracks">
+                            <span style="color:#2c3e50; position: relative; ">Quizzes</span>
+                            <h2 style="color: #FFF; position: absolute;">Quizzes</h2>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="800">
+                    <div class="row">
+                        <a class="col  quiz" href="c.html">
+                            <i class="fa-solid fa-file-circle-question fa-2xl" style="color: #ffffff;"></i>
+                            <h3>C Quizzes</h3>
+                            <p>
+                                يمكنك الاختيار بين انواع التحديات الموجودة في لغة الـ C و يمكنك تحدي نفسك في كل جزئية
+                                على
+                                حدى حيث تم
+                                تقسيم التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                            </p>
+                        </a>
+                        <a class="col quiz" href="javascript.html">
+                            <i class="fa-solid fa-file-circle-question fa-2xl" style="color: #ffffff;"></i>
+                            <h3>JavaScript Quizzes</h3>
+                            <p>
+                                يمكنك الاختيار بين انواع التحديات الموجودة في الجافا سكريبت ويمكنك تحدي نفسك في كل جزئية
+                                على
+                                حدى حيث
+                                تم تقسيم التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                            </p>
+                        </a>
+                        <a class="col quiz" href="python.html">
+                            <i class="fa-solid fa-file-circle-question fa-2xl" style="color: #ffffff;"></i>
+                            <h3>Python Quizzes</h3>
+                            <p>
+                                يمكنك الاختيار بين انواع التحديات الموجودة في البايثون ويمكنك تحدي نفسك في كل جزئية على
+                                حدى
+                                حيث
+                                تم تقسيم التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                            </p>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a class="col quiz" href="css.html">
+                            <i class="fa-solid fa-file-circle-question fa-2xl" style="color: #ffffff;"></i>
+                            <h3>CSS Quizzes</h3>
+                            <p>
+                                كثر من 10 اسئلة في لغة CSS باللغة العربية لكي يتمكن الطالب العربي الذي ينوي دخول عالم
+                                الويب
+                                من تثبيت
+                                كل ما تعلمه من CSS في رأسه.
+                            </p>
+                        </a>
+                        <a class="col quiz" href="html.html">
+                            <i class="fa-solid fa-file-circle-question fa-2xl" style="color: #ffffff;"></i>
+                            <h3>HTML Quizzes</h3>
+                            <p>
+                                أكثر من 35 سؤال في لغة HTML باللغة العربية لكي يتمكن الطالب العربي الذي ينوي دخول عالم
+                                الويب
+                                من
+                                تثبيت كل ما تعلمه من HTML في رأسه.
+                            </p>
+                        </a>
+                        <a class="col quiz" href="c++.html">
+                            <i class="fa-solid fa-file-circle-question fa-2xl" style="color: #ffffff;"></i>
+                            <h3>C++ Quizzes</h3>
+                            <p>
+                                يمكنك الاختيار بين انواع التحديات الموجودة في C++ و يمكنك تحدي نفسك في كل جزئية على حدى
+                                حيث
+                                تم تقسيم
+                                التحديات بطريقة رائعة تساعد المستخدم على الفهم بشكل جيد
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="text">
+                    <h4>
+                        ما هو الـ Problem Solving ؟
+                    </h4>
+                    <br>
+                    <p
+                        style="font-size: 23px;color: #FFF; text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right;">
+                        يمكننا القول ان ال Problem Solving هو حل المشكلات التي تواجهنا سواء برمجياً او حتى في حياتنا
+                        العادية , فلا تخلو الحياة من المشاكل و الشخص الذي يتمتع بمهارة حل ال Problem Solving يمكنه
+                        الوصول للحل المانسب لاي مشكلة و في انسب وقت حيث كلما زاد وقت المشكلة تزيد الخسائر , اذا الملخص
+                        ان ال Problem Solving يقصد بها ايجاد افضل حل في اقصر وقت ممكن للمشكلة.
+                    </p>
+                    <br>
+                    <p
+                        style="font-size: 23px;color: #FFF; text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right;">
+                        لنتفق سوياً ان الـ Problem solving في الاساس هي مجموعة من الاختبارات في الغالب تكون بتوقيت محدد
+                        يقوم الطالب فيه بحل جميع الاسئلة التي تكون عبارة عن مشكلات حقيقية بلغة برمجة معينة Problem
+                        solving ؟
+                    </p>
+                    <br>
+                    <br>
+                    <h4>
+                        كيف تتم حل المشكلات؟
+                    </h4>
+                    <br>
+                    <p
+                        style="font-size: 23px;color: #FFF; text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right;">
+                        لكي تتمكن من حل المشكلات يجب ان تكون على دراية بعلم الخوارزميات , و بشكل عام دخولك الى مجال
+                        البرمجة يتطلب فهمك للخوارزميات حيث من خلالها تستطيع ترتيب افكارك للوصول للحل المناسب في الوقت
+                        المناسب و لحل اي مشكلة يجب اتباع تلك الخطوات
+                    </p>
+                    <br>
+                    <br>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">تعريف
+                        المشكلة وتحديدها.</span>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">البحث
+                        عن حلول بديلة</span>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">تقييم
+                        واختيار الحلول المناسبة لحلّ المشكلة.</span>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">تطبيق
+                        الحلّ المناسب على أرض الواقع</span>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">الحصول
+                        على تغذية راجعة والتجاوب معها بالأسلوب المناسب.</span>
+                    <br>
+                    <br>
+                    <h4>
+                        استخدام ال Problem Solving في البرمجة
+                    </h4>
+                    <br>
+                    <p
+                        style="font-size: 23px;color: #FFF; text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right;">
+                        مهارة حل المشكلات الـ Problem solving Skills واحدة من اهم المهارات إن لم تكن أهم مهارة في مجال
+                        الـ Computer science حيث ان هذا المجال معتمد في الاساس على حل المشكلات فنحن عندما واجهتنا مشكلة
+                        في الماضي وهي الرسائل المشفرة التي كان من الصعب فك تشفيرها قمنا من خلال البرمجة بحل تلك المشكلة
+                        و فك التشفير ايضاً عندما واجهتنا مشكلة في حركة المرور و قلة السيارات الاجرة قمنا ببرمجة تطبيقات
+                        مثل اوبر و غيرها لمساعدة البشر و تسهيل حياتهم و غيرها الكثير ف وظيفة المبرمج في الاساس هي ايجاد
+                        حل لاي مشكلة تواجهه
+                    </p>
+                    <br>
+                    <br>
+                    <h4>
+                        كيف يستفيد المبرمج من تعلمه لل Problem solving
+                    </h4>
+                    <br>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">
+                        هيكون عندك مهارة فى حل المشكلات و المهارة دى كفيلة انها تشغل فى أى شركة فى العالم كما ذكرنا , و
+                        للعلم عن الشروع في التقدم لشغل اي وظيفة فيجب ان تعلم ان كل الـ interviews في الشركات حالياً تدور
+                        اسئلتها حول قدرة المتقدم للوظيفة على حل المشكلات من عدمها فاذا تبين ان لديه هذه المهارة تكون
+                        نسبة قبولة مرتفعة جداً.
+                    </span>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">
+                        هيكون عندك خبرة كبيرة في الـ Algorithms و الـ Data structures .
+                    </span>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">
+                        هتزيد سرعة كتابتك للكود لانك هتكون متعود على اختبارات حل المشكلات التي في العادة تكون بوقت محدد.
+                    </span>
+                    <span
+                        style="color: #FFF; font-size: 23px;text-align: center; display: flex; align-items:center ; justify-content:right; margin: auto; text-align: right; ">
+                        هتزيد خبرتك في البرمجة و في اللغة التي تختبر نفسك بها باستمرار.
+                    </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- problem-page -->
+    <!-- footer -->
+    <footer style="background-color: #deded5;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #fff;">Social Media</h5>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #FFF;text-align: left;">Site Menu</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff;text-align: center;">Home</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Courses</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">About Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Contact Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Blog</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Privacy Policy</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-1" style="letter-spacing: 2px; color: #FFF;">Nouvil</h5>
+                    <br>
+                    <h6 style="color: #FFF; font-size: 25px;">اكادمية نوفيل لتعليم البرمجة</h6>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="color: #FFF;">
+            Created By:
+            <a style="color: #4d7095;"> Fady Adel</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- footer -->
+</body>
+<!-- animation scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- js files -->
+<script src="/js/index.js"></script>
+<!-- particles js files -->
+<script src="/js/particles.js"></script>
+<script src="/js/app.js"></script>
+<!-- bootstrap -->
+<script src="/js/all.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+
+</html>

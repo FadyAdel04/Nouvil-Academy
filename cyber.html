@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مسار الامن السيبرانى-Nouvil</title>
+        <!-- website img -->
+        <link rel="icon" href="img/n.jpg">
+    <!-- link animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- linl style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- impor MDB -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <span class="up"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff; background: none;"></i></span>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" style=" position: fixed; width: 100%;  z-index: 40;">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" style="color: #FFF;" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto">
+                        <!-- Right elements -->
+                        <div class="d-flex align-items-center">
+                            <!-- Avatar -->
+                            <div style="margin-right: 10px;" class="dropdown">
+                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                                    id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                        height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                                    <li>
+                                        <a class="dropdown-item" href="#">My profile</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="btn">اشترك</button>
+                            </div>
+                            <span class="input-group-text border-0" id="search-addon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                        <!-- Right elements -->
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                <span style="color: red; font-size: 12px;">new</span>
+                                Css game
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="cssFlex.html">Flex Box</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                خريطه تعلم البرمجة
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="frontend.html">Front End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="backend.html">Back End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="fullstack.html">Full Stack <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="cyber.html">الامن السيبرانى</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="jsTrack.html">مسار الجافاسكريبت</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Problem Solving
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="problrmSolving.html">Problem Solving</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c.html">C</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c++.html">C++</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="python.html">Python</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="html.html">HTML</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="css.html">CSS</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="algorithms.html">Algorithms</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="allcourses.html">All Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+                    <h2 style="color: #FFF;font-size: 50px;"><span style="color: #4d7095;">N</span>ouvil</h2>
+                </a>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    <!-- breadcrumb -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">الرئيسة</a></li>
+            <li class="breadcrumb-item active" aria-current="page">مسار الامن السيبرانى>
+        </ol>
+    </nav>
+    <!-- breadcrumb -->
+
+    <!-- js track -->
+    <div class="container">
+        <div class="row">
+            <div class="js-track">
+                <div data-aos="zoom-in-down" data-aos-duration="1300">
+                    <div class="tracks">
+                        <span style="color:#2c3e50; position: relative;">مسار الامن السيبرانى</span>
+                        <h2 style="color: #FFF; position: absolute;">مسار الامن السيبرانى</h2>
+                    </div>
+                </div>
+                <p
+                    style="display: flex; align-items: center; justify-content: center; margin: auto; text-align: center;">
+                    مسار الأمن
+                    السيبراني Cyber Security يعتبر من اهم المسارات البرمجية المطلوبة في سوق العمل لذلك ستجد هنا خريطة
+                    كاملة لتعلم اساسيات الامن السيبراني</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <i class="fa-solid fa-user-secret fa-2xl"
+            style="color: #5b5858; display: flex; align-items: center; justify-content: center; margin: auto; font-size: 70px; margin-bottom: 50px;"></i>
+        <h3 style="color: #fff; display: flex; align-items: center; justify-content: center;">خريطة تعلم الامن السيبراني
+        </h3>
+        <p
+            style="display: flex; align-items: center; justify-content: center; margin: auto; text-align: center; color: #fff; font-size: 20px;">
+            لدخول مجال الامن السيبراني يجب ان تلتزم بتعلم تلك الاساسيات بالترتيب
+        </p>
+    </div>
+    <!-- js track -->
+    <!-- time line -->
+    <div class="container">
+        <div class="timeline">
+            <div class="timeline-row">
+                <div class="timeline-time">
+                    البرمجة
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1300">
+                    <div class="timeline-content" style="padding: 50px;">
+                        <h4 style="color:#bcd0f7; font-size: 40px;background: none;">Programming البرمجة</h4>
+                        <p style="color: #FFF; background: none; font-size: 20px;">البرمجة Programming يجب عليك تعلم العديد
+                            من لغات البرمجة لكن لا تقلق فلا يجب ان تتقنهم جميعاً يكفي معرفة طريقة كتابة كل لغةو لغة البايثون
+                            هي واحدة من اهم لغات البرمجة طلب في هذا المجاللكن نصيحة اتقانك لعدة لغات برمجة سيتيح لك التفوق
+                            في مجال الامن السيبراني</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="timeline-row">
+                <div class="timeline-time">
+                    الشبكات
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1300">
+                    <div class="timeline-content" style="padding: 50px;">
+                        <h4 style="color:#bcd0f7; font-size: 40px;background: none;">Networks الشبكات</h4>
+                        <p style="color: #FFF; background: none; font-size: 20px; text-align: center;">
+                            الشبكات Networks تعلم الشبكات من اكثر نقاط الضعف في اي نظام و تعتبر من أهم الأمور الواجب على
+                            المتخصص في الأمن السيبراني معرفتها، فمعظم الهجمات الإلكترونية تتم من خلال الشبكات المختلفة،</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-time">
+                    Basics
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1300">
+                    <div class="timeline-content" style="padding: 50px;">
+                        <h4 style="color:#bcd0f7; font-size: 40px;background: none;">أنظمة التشغيل Operation Systems</h4>
+                        <p style="color: #FFF; background: none; font-size: 20px;">
+                            أنظمة التشغيل مثل Windows و Linux و Android وغيرها هي المسؤلة عن تنظيم وظائف الأجهزة، ولذا فإنها
+                            أول ما يتم اختراقها مهمتك أن تقوم بالتأكد من عدم حدوث اختراق للأجهزة الخاصة في النظام الذي
+                            تحميه، بالإضافة إلى معرفة كيفية تأمينه وتأمين أنظمة التشغيل التي يستخدمها أمام أي هجمات.و يجب ان
+                            تعلم ان نظام Linux من اهم الانظمة التي يجب تعلمها، لأنه يحتوي على الكثير من البرمجيات المهمة
+                            والمفيدة في هذا المجال , كما أن اختراقه أصعب من باقي أنظمة التشغيل. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-time">
+                    انظمة التشغيل
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1300">
+                    <div class="timeline-content" style="padding: 50px;">
+                        <h4 style="color:#bcd0f7; font-size: 40px;background: none;">IT</h4>
+                        <p style="color: #FFF; background: none; font-size: 20px;">IT تكنولوجيا المعلومات Information
+                            Technology من أهم المهارات التي يجب تعلمها في مجال الأمن السيبراني.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-time">
+                    تكنولوجيا المعلومات
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1300">
+                    <div class="timeline-content" style="padding: 50px;">
+                        <h4 style="color:#bcd0f7; font-size: 40px;background: none;">Computer Science</h4>
+                        <p style="color: #FFF; background: none; font-size: 20px;">الـ OOP هو طريقة لكتابة الكود و تتيح لك
+                            امكانية عمل كائنات لها خصائص و دوال وهذه الطريقة تعتبر من اهم الطرق البرمجية بشكل عام ليست في
+                            الجافا سكريبت فقط و لكن تعلمك لها في الجافاسكريبت يتيح لك مجالات كثيرة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- time line -->
+    <!-- text -->
+    <br>
+    <br>
+    <div class="container">
+        <div class="cyber-track">
+            <h3>ما هو الامن السيبراني؟</h3>
+            <p>
+                الأمن السيبراني Cyber Security يعتبر من اهم المسارات البرمجية المطلوبة في سوق العمل سواء في الوطن العربي
+                او في الخارج
+                ومن المتوقع أن يزداد الطلب عليه أكثر وأكثر في السنوات القليلة القادمة.
+            </p>
+            <br>
+            <p>
+                و هذا لان بترول العصر الحالي هي البيانات data و للحفاظ على امن هذه البيانات اصبح الطلب كبير على موظفين
+                الامن السيبراني
+            </p>
+            <br>
+            <p>
+                لذلك فان هذا الطلب الكبير أدى إلى وجود الملايين من فرص العمل التي تحتاج إلى متخصصين ليشغلوها
+                والكثير من هذه الفرص إن لم يكن كلها برواتب مرتفعة للغاية
+                أكبر حتى من متوسط الرواتب المعتادة.
+            </p>
+            <br>
+            <p>
+                ستجد هنا خريطة كاملة لتعلم اساسيات الامن السيبراني من البداية حتى النهاية
+            </p>
+            <br>
+            <h3>
+                كيفية تعلم الامن السيبراني
+            </h3>
+            <p>
+                قبل كل شئ يجب ان تعلم ان هذا المجال يحتوي على الكثير من التخصصات الفرعية
+            </p>
+            <br>
+            <p>
+                ولهذا فعليك أولًا أن تقوم بتحديد مسار وظيفي تريد أن تسلكه، وبعد ذلك تعرف المهارات المطلوبة فيه لتبدأ في
+                تعلمها وإتقانها.
+                لكن حتى لو كان ليس لديك أي فكرة عن المجال أو ليس لديك مسار محدد تريد أن تسلكه
+                فبإمكانك أن تقوم بتعلم المهارات الأساسية التي ذكرناها ، ومن ثم التعرف على المجالات المختلفة.
+            </p>
+            <br>
+            <h3>
+                شهادات تعلم الأمن السيبراني
+            </h3>
+            <p>
+                قبل كل شئ هناك العديد من الشهادات التي لها أهمية كبيرة في سوق العمل
+                فتلك الشهادات المهنية إثبات على كونك متمكن من المهارات التقنية.
+            </p>
+            <br>
+            <p>
+                لذلك فإن ما يقارب من 35% من وظائف الأمن السيبراني تتطلب على الأقل شهادة واحدة من هذه الشهادات.
+            </p>
+            <h3>
+                من أهم هذه الشهادات والتي يجب أن تأخذها في الحسبان:
+            </h3>
+            <h6>
+                شهادة Security +: هذه الشهادات من أكثر الشهادات المطلوبة على الإطلاق في مجال الأمن السيبراني
+                كما أنها مُعترف بها من قبل العديد من الجهات والتي على رأسها وزارة الدفاع الأمريكية.
+            </h6>
+            <br>
+            <h6>
+                شهادة CEH: شهادة CEH أو شهادة الهاكر الأخلاقي Certified Ethical Hacker هي واحدة من الشهادات ذات الشعبية
+                الجارفة
+                خاصة في مجال الاختراق، والكثيرون يبدأون بالحصول عليها.
+            </h6>
+            <br>
+            <h6>
+                شهادة OSCP: هي النسخة الأكثر تطورًا وتعقيدًا من شهادة CEH، وهي اختصار لـ Offensive Security Certified
+                Professional
+                و تُعد من أكثر الشهادات المرموقة في المجال.
+            </h6>
+            <br>
+            <h6>
+                شهادة CISSP: شهادة التخصص في أمن المعلومات Certified Information Security Professional
+                وهي من الشهادات الأكثر اعترافًا واحترامًا في مجال الأمن السيبراني.
+            </h6>
+            <br>
+            <h6>
+                شهادة SANS: هذه الشهادات مرموقة للغاية وشائعة حيث إنها تُعد من أكثر الشهادات التي يتم الحصول عليها في
+                مجال الأمن السيبراني.
+            </h6>
+            <br>
+            <h6>
+                شهادة CCNA: هذه الشهادة من الشركة العالمية سيسكو Cisco، وهي مختصة بأمن الشبكات لذلك تُعد من الشهادات
+                المرموقة في هذا المجال.
+            </h6>
+            <br>
+            <h6>
+                وبشكل عام فإن هذه الشهادات ليست هي الوحيدة، فهناك العشرات من الشهادات المهنية في مجال الأمن السيبراني،
+                ولكني قد ذكرت أهمهم وأكثرهم شهرة.
+            </h6>
+            <br>
+            <h6>
+                من المهم عند البدء في تعلم الأمن السيبراني، أن تركز على الحصول على الشهادات التي تؤهلك للوظيفة التي
+                تريدها.
+            </h6>
+        </div>
+    </div>
+    <!-- text -->
+    <!-- footer -->
+    <div class="footer">
+        <footer style="background-color: #deded5;">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <h5 class="mb-3" style="letter-spacing: 2px; color: #fff;">Social Media</h5>
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                            <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                            <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <h5 class="mb-3" style="letter-spacing: 2px; color: #FFF;text-align: left;">Site Menu</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-1">
+                                <a href="#!" style="color: #fff;text-align: center;">Home</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" style="color: #fff">Courses</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" style="color: #fff">About Us</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" style="color: #fff">Contact Us</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" style="color: #fff">Blog</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" style="color: #fff">Privacy Policy</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" style="color: #fff">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <h5 class="mb-1" style="letter-spacing: 2px; color: #FFF;">Nouvil</h5>
+                        <br>
+                        <h6 style="color: #FFF; font-size: 25px;">اكادمية نوفيل لتعليم البرمجة</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3" style="color: #FFF;">
+                Created By:
+                <a style="color: #4d7095;"> Fady Adel</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+    <!-- footer -->
+</body>
+<!-- animation scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- js files -->
+<script src="js/index.js"></script>
+<!-- bootstrap -->
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+
+</html>

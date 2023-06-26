@@ -1,0 +1,1850 @@
+/* start animated background */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(#091d33, #0c2037);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.up {
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    background: #4d7095;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.up.show {
+    right: 10px;
+}
+
+span::selection {
+    color: #4d7095;
+}
+
+p::selection {
+    color: #98a3b0;
+}
+
+body {
+    height: 1000px;
+}
+
+/* we use dot (.) to target class and
+hash (#) to target id... */
+#particles-js {
+    height: 65vh;
+    background-position: center;
+    background: linear-gradient(#091d33, #0c2037);
+
+}
+
+/* end animated background */
+
+/* start navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+}
+
+.navbar hr {
+    color: #fff;
+    background: none;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #FFF;
+    padding-left: 45px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #4d7095;
+}
+
+.navbar .dropdown-item {
+    color: #FFF;
+    background: #000;
+    text-align: center;
+}
+
+.navbar .dropdown-item:hover {
+    color: #FFF;
+    background: #4d7095;
+}
+
+
+.navbar .btn {
+    color: #FFF;
+    font-size: 20px;
+    background: #2c3e50;
+}
+
+.navbar .btn:hover {
+    color: #FFF;
+    background: #4d7095;
+}
+
+.navbar .input-group-text {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.navbar .input-group-text:hover {
+    color: #4d7095;
+}
+
+/* nav bar */
+
+/* start landing */
+.landing {
+    position: absolute;
+    margin-top: 50px;
+    z-index: 1;
+    background: none;
+}
+
+.landing h3 {
+    color: #4d7095;
+    background: none;
+}
+
+.landing h1 {
+    color: #FFF;
+    font-size: 80px;
+    font-weight: bold;
+    background: none;
+}
+
+.landing h4 {
+    color: #FFF;
+    margin-top: 20px;
+    background: none;
+}
+
+/* end landing */
+
+/* start tracks */
+.container .row .tracks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .row h2::selection {
+    color: #98a3b0;
+}
+
+.container .row span {
+    font-size: 150px;
+    font-weight: bolder;
+    background: none;
+}
+
+.container .row h2 {
+    font-size: 60px;
+    margin-top: 10px;
+    background: none;
+}
+
+
+.container .row p {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 30px;
+}
+
+.container .row .card {
+
+    display: flex;
+    align-items: center;
+    background: #040a11;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform .2s;
+    /* Animation */
+}
+
+.container .row .card:hover {
+    background: #2c3e50;
+    transform: scale(1.1);
+}
+
+.container .row .card h4 {
+    color: #FFF;
+    margin: 25px;
+    font-size: 35px;
+    background: none;
+}
+
+.container .row .card h3 {
+    margin-top: 35px;
+    color: #FFF;
+    background: none;
+}
+
+/* end tracks */
+
+/* quizez*/
+.container .row .quiz {
+    background: #040a11;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform .2s;
+    /* Animation */
+}
+
+.container .row .quiz:hover {
+    background: #2c3e50;
+    transform: scale(1.1);
+}
+
+.container .row .quiz .fa-file-circle-question {
+    color: #FFF;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    margin-top: 70px;
+}
+
+.container .row .quiz h3 {
+    color: #FFF;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.container .row .quiz a {
+    text-decoration: none;
+}
+
+.container .row .quiz p {
+    font-size: 15px;
+    background: none;
+    margin: 25px 15px;
+    text-align: center;
+}
+
+/* quizez*/
+
+/* learning map */
+
+.container .learning {
+    background: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .learning .learning-map {
+    padding-right: 50px;
+}
+
+.container .learning h3 {
+    color: #4d7095;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 25px;
+}
+
+.container .learning h5 {
+    color: #ffffff;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.container .learning img {
+    width: 100%;
+    height: auto;
+}
+
+.container .learning span {
+    margin-right: 10px;
+    text-align: left;
+    color: #FFF;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+}
+
+.container .learning p {
+    text-align: right;
+    color: #FFF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* learning map */
+
+/* courses */
+.container .row .course {
+    width: 350;
+    background: #040a11;
+    margin: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container .row .course:hover {
+    background: #2c3e50;
+}
+
+.container .row .course p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 17px;
+    background: none;
+    text-align: center;
+}
+
+.container .row .course img {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    background: none;
+}
+
+.container .row .course h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    background: none;
+    color: #FFF;
+}
+
+.container .row .course2 {
+    width: 540px;
+    background: #040a11;
+    margin: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container .row .course2:hover {
+    background: #2c3e50;
+}
+
+.container .row .course2 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 17px;
+    background: none;
+    text-align: center;
+}
+
+.container .row .course2 img {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    background: none;
+}
+
+.container .row .course2 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    background: none;
+    color: #FFF;
+}
+
+/* courses */
+
+/* about */
+.container .row .about {
+    width: 100%;
+    height: 550px;
+}
+
+.container .row .back {
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    margin-top: 50px;
+    background: #6f97bf;
+    border-radius: 10px;
+}
+
+.container .row .back h4 {
+    color: #FFF;
+    background: none;
+    font-size: 45px;
+    text-align: right;
+}
+
+.container .row .back h5 {
+    color: #FFF;
+    background: none;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.container .row .text {
+    padding: 50px;
+}
+
+.container .row .text h2 {
+    color: #4d7095;
+    font-size: 35px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+}
+
+.container .row .text span {
+    font-size: 45px;
+    color: #FFF;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+}
+
+.container .row .text p {
+    font-size: 35px;
+    color: #FFF;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+}
+
+/* about */
+
+/* front end page =============================================================== */
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin: 10px;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #6f97bf;
+}
+
+.breadcrumb .breadcrumb-item:hover {
+    color: #FFF;
+}
+
+/* breadcrumb */
+
+/* frontend */
+.container .row .frontend span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: bolder;
+    font-size: 200px;
+    background: none;
+    margin: 10px;
+}
+
+.container .row .frontend h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: bolder;
+    font-size: 100px;
+    background: none;
+    margin: 10px;
+}
+
+.container .row .frontend p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.container .row .frontend .p2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* frontend */
+
+
+
+
+/* timeline */
+.timeline {
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 5rem;
+    margin: 0 auto 1rem auto;
+    overflow: hidden;
+}
+
+
+.timeline:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -2px;
+    border-right: 2px dashed #4d7095;
+    height: 100%;
+    display: block;
+}
+
+.timeline-row {
+    padding-left: 50%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.timeline-row .timeline-time {
+    position: absolute;
+    right: 50%;
+    top: 15px;
+    text-align: right;
+    margin-right: 20px;
+    color: #bcd0f7;
+    font-size: 1.5rem;
+}
+
+
+.timeline-row .timeline-content {
+    position: relative;
+    padding: 20px 30px;
+    background: #040a11;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: transform .4s;
+    /* Animation */
+}
+
+.timeline-row .timeline-content:hover {
+    background: #6f97bf;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.timeline-row .timeline-content .thumbs {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.timeline-row .timeline-content .thumbs img {
+    margin: 5px;
+    max-width: 60px;
+}
+
+.timeline-row .timeline-content .badge {
+    color: #ffffff;
+    background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+}
+
+.timeline-row:nth-child(even) .timeline-content {
+    margin-left: 40px;
+    text-align: left;
+}
+
+.timeline-row:nth-child(even) .timeline-content:after {
+    left: -8px;
+    right: initial;
+    border-bottom: 0;
+    border-left: 0;
+    transform: rotate(-135deg);
+}
+
+.timeline-row:nth-child(even) .timeline-content:before {
+    left: -52px;
+    right: initial;
+}
+
+.timeline-row:nth-child(odd) {
+    padding-left: 0;
+    padding-right: 50%;
+}
+
+.timeline-row:nth-child(odd) .timeline-time {
+    right: auto;
+    left: 50%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.timeline-row:nth-child(odd) .timeline-content {
+    margin-right: 40px;
+}
+
+.timeline-row:nth-child(odd) .timeline-content:after {
+    right: -8px;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 992px) {
+    .timeline {
+        padding: 15px;
+    }
+
+    .timeline:after {
+        border: 0;
+    }
+
+    .timeline .timeline-row:nth-child(odd) {
+        padding: 0;
+    }
+
+    .timeline .timeline-row:nth-child(odd) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+    }
+
+    .timeline .timeline-row:nth-child(odd) .timeline-content {
+        margin: 0;
+    }
+
+    .timeline .timeline-row:nth-child(odd) .timeline-content:before {
+        display: none;
+    }
+
+    .timeline .timeline-row:nth-child(odd) .timeline-content:after {
+        display: none;
+    }
+
+    .timeline .timeline-row:nth-child(even) {
+        padding: 0;
+    }
+
+    .timeline .timeline-row:nth-child(even) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+        text-align: left;
+    }
+
+    .timeline .timeline-row:nth-child(even) .timeline-content {
+        margin: 0;
+    }
+
+    .timeline .timeline-row:nth-child(even) .timeline-content:before {
+        display: none;
+    }
+
+    .timeline .timeline-row:nth-child(even) .timeline-content:after {
+        display: none;
+    }
+}
+
+/* timeline */
+
+/* front end page =============================================================== */
+
+/* back end page ================================================================ */
+
+.container .row .backend .p1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.container .row .backend h3 {
+    color: #FFF;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.container .row .backend p {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    padding: 15px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+}
+
+.container .row .backend h4 {
+    color: #FFF;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    text-align: right;
+}
+
+.container .row .backend .smallText {
+    margin-right: 30px;
+}
+
+.backend-courses {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+.container .row .card2 {
+    width: 650px;
+    background: #040a11;
+    margin: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .row .card2:hover {
+    background: #2c3e50;
+}
+
+.container .row .card2 .fa-crown {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: none;
+    margin-top: 5rem;
+}
+
+.container .row .card2 .fa-gem {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: none;
+    margin-top: 5rem;
+}
+
+.container .row .card2 h3 {
+    color: #FFF;
+    background: none;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.container .row .card2 p {
+    color: #FFF;
+    background: none;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+/* back end page ================================================================ */
+
+/* problem-page ====================================================================*/
+
+.problem-page .container .row h4 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+
+
+.problem-page .container .row .col span {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    justify-content: right;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: #4d7095;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+}
+
+.problem-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+.container .row .problem .tracks {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+}
+
+.container .row .problem .tracks h2::selection {
+    color: #98a3b0;
+}
+
+.container .row .problem .tracks span {
+    font-size: 150px;
+    font-weight: 800px;
+    background: none;
+}
+
+.container .text h4 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+/* problem-page ====================================================================*/
+
+/* c quizzez page ================================================================= */
+
+.c-page .container p {
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+}
+
+.c-page .container h3 {
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.c-page .container .row .col span {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    justify-content: right;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: #4d7095;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.c-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+/* .container .row .quiz {
+    width: 650px;
+    height: 520px;
+    background: #040a11;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .row .quiz:hover {
+    background: #2c3e50;
+} */
+
+.c-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+.c-page .container .cquiz {
+    background: #0d243e;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.c-page .container .cquiz:hover {
+    background: #2c3e50;
+}
+
+.c-page .container .cquiz h3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.c-page .container .cquiz p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.c-page .container .important span {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* c quizzez page ================================================================= */
+
+/* c++ quizzez page ================================================================= */
+.c2-page .container p {
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+}
+
+.c2-page .container h3 {
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.c2-page .container .row .col span {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    justify-content: right;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: #4d7095;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.c2-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+/* .container .row .quiz {
+    width: 650px;
+    height: 520px;
+    background: #040a11;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .row .quiz:hover {
+    background: #2c3e50;
+} */
+
+.c2-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+.c2-page.container .cquiz {
+    background: #0d243e;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.c2-page .container .cquiz:hover {
+    background: #2c3e50;
+}
+
+.c2-page .container .cquiz h3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.c2-page .container .cquiz p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.c2-page .container .important span {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* c++ quizzez page ================================================================= */
+
+/* JavaScript quizzez page ================================================================= */
+.JavaScript-page .container p {
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+}
+
+.JavaScript-page .container h3 {
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.JavaScript-page .container .row .col span {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    justify-content: right;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: #4d7095;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.JavaScript-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+/* .container .row .quiz {
+    width: 650px;
+    height: 520px;
+    background: #040a11;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .row .quiz:hover {
+    background: #2c3e50;
+} */
+
+.JavaScript-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+.JavaScript-page.container .cquiz {
+    background: #0d243e;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.JavaScript-page .container .cquiz:hover {
+    background: #2c3e50;
+}
+
+.JavaScript-page .container .cquiz h3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.JavaScript-page .container .cquiz p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.JavaScript-page .container .important span {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* JavaScript quizzez page ================================================================= */
+
+/* Python quizzez page ================================================================= */
+.Python-page .container p {
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+}
+
+.Python-page .container h3 {
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.Python-page .container .row .col span {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    justify-content: right;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: #4d7095;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Python-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+/* .container .row .quiz {
+    width: 650px;
+    height: 520px;
+    background: #040a11;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .row .quiz:hover {
+    background: #2c3e50;
+} */
+
+.Python-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+.Python-page.container .cquiz {
+    background: #0d243e;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Python-page .container .cquiz:hover {
+    background: #2c3e50;
+}
+
+.Python-page .container .cquiz h3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.Python-page .container .cquiz p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.Python-page .container .important span {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* Python quizzez page ================================================================= */
+
+/* html quizez ======================================================== */
+.HTML-page .container p {
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+}
+
+.HTML-page .container h3 {
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.HTML-page .container .row .col span {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    justify-content: right;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: #4d7095;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.HTML-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+
+.HTML-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+.HTML-page.container .cquiz {
+    background: #0d243e;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.HTML-page .container .cquiz:hover {
+    background: #2c3e50;
+}
+
+.HTML-page .container .cquiz h3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.HTML-page .container .cquiz p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.HTML-page .container .important span {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* html quizez ======================================================== */
+
+/* algorithms page ====================================================== */
+.algorithms-page .container p {
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+}
+
+
+.algorithms-page .container h3 {
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.algorithms-page .container .row .col span {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    justify-content: right;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: #4d7095;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.algorithms-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+
+.algorithms-page .container .row .col span:hover {
+    background: #2c3e50;
+}
+
+.algorithms-page.container .cquiz {
+    background: #0d243e;
+    margin: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.algorithms-page .container .cquiz:hover {
+    background: #2c3e50;
+}
+
+.algorithms-page .container .cquiz h3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.algorithms-page .container .cquiz p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.algorithms-page .container .important span {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* algorithms page ====================================================== */
+
+
+
+/* cyber page ====================================================== */
+
+.container .cyber-track h3 {
+    color: #6f97bf;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 35px;
+}
+
+.container .cyber-track p {
+    color: #fff;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.container .cyber-track h6 {
+    color: #fff;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.footer a:hover {
+    background: #4d7095;
+    color: #fff;
+}
+
+/* cyber page ====================================================== */
+
+/* courses html&css ===========================================================*/
+
+.main-container {
+    margin-top: 13rem;
+}
+
+.main-container .jj {
+    background: #182635;
+    padding: 10px;
+    height: 750px;
+}
+
+.main-container .jg {
+    background: #182635;
+    padding: 10px;
+}
+
+.main-container .container .row .col-4 .img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: none;
+}
+
+.main-container .container .row .btn {
+    color: #fff;
+    background: #1e73be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.main-container .container .row .btn:hover {
+    background: #4d7095;
+}
+
+.main-container .container .row small {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    background: none;
+}
+
+.main-container .container .row h3 {
+    color: #fff;
+    background: none;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.main-container .container .row h4 {
+    color: #f4c150;
+    background: none;
+}
+
+.main-container .container .row h6 {
+    color: #fff;
+    background: none;
+    font-size: 23px;
+    display: inline-flex;
+}
+
+.main-container .container .fa-check {
+    background: none;
+    font-weight: 15px;
+    padding: 5px;
+}
+
+.main-container .container .row .jj span {
+    background: #314c69;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.main-container .container .row .jj span:hover {
+    color: #f4c150;
+}
+
+.main-container .container .row .col-8 .stars {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+}
+
+.main-container .container .row .col-8 span {
+    color: #f4c150;
+    font-size: 14px;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.main-container .container .row .col-8 small {
+    color: #fff;
+}
+
+.main-container .container .row .col-8 h2 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 30p
+}
+
+.main-container .container .row .col-8 h4 {
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+.main-container .container .row .col-8 .icon {
+    padding-left: 10px;
+}
+
+.main-container .container .row .col-8 .space .v1 small {
+    padding-right: 120px;
+}
+
+.main-container .container .row .col-8 .space .v2 {
+    display: flex;
+    justify-content: right;
+}
+
+.main-container .container .row .col-8 .space h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.main-container .container .row .col-8 .space .v2 h4 {
+    justify-content: right;
+    margin: auto;
+}
+
+/* nested list group */
+.list-group>.list-group {
+    display: none;
+    margin-bottom: 0;
+}
+
+.list-group-item:focus-within+.list-group {
+    display: block;
+}
+
+.list-group>.list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+.list-group>.list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group>.list-group>.list-group-item {
+    padding-left: 2.5rem;
+}
+
+.nested .title {
+    background: #182635;
+    color: #58799b;
+    text-align: right;
+    margin: 10px;
+}
+
+.nested .list-group .body .text {
+    color: #58799b;
+    background: #1a2c3e;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+}
+
+.nested .text {
+    text-align: right;
+    color: #fff;
+    background: #1b3b5e;
+    margin: 2px;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+}
+
+
+
+.nested .fa-plus {
+    background: none;
+    color: #f4c150;
+    display: flex;
+}
+
+/* nested list group */
+.feedback .box {
+    border: #fff solid 2px;
+    width: 100%;
+    height: auto;
+}
+
+.feedback .box .top {
+    left: 50%;
+    top: 50%;
+}
+
+
+/* courses html&css ===========================================================*/
+
+
+/* css course ===================================================================== */
+.main-container .container .row .jg span {
+    background: #314c69;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.main-container .container .row .jg span:hover {
+    color: #f4c150;
+}
+
+.main-container .container .space p {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    text-align: right;
+    font-size: 20px;
+}
+
+/* css course ===================================================================== */
+
+/* blog page ====================================================================== */
+
+.container .row .blog-card {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    background: #1a2c3e;
+    padding: 10px;
+}
+
+.container .row .blog-card img {
+    width: 280px;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.container .row .blog-card img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.container .row .blog-card small {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    text-align: right;
+    color: #1e73be;
+    padding-right: 5px;
+    font-size: 17px;
+    background: none;
+}
+
+.container .row .blog-card h3 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    text-align: right;
+    margin: 10px;
+    background: none;
+}
+
+
+/* pagination */
+.container .pagination .page-item a {
+    color: #fff;
+    background: #1a2c3e;
+    border: #fff solid 2px;
+}
+
+.container .pagination .page-item a:hover {
+    background-color: #4d7095;
+}
+
+/* pagination */
+/* blog page ====================================================================== */
+
+/* flex game =========================================================================== */
+
+
+.container .row .flex img {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.container .row .flex h3 {
+    color: #fff;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+}
+
+.container .row .flex p {
+    color: #fff;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .fleximg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+}
+
+
+
+/* flex game =========================================================================== */
+
+/* algorithm page ====================================================================== */
+
+.container .row .algorithm-page h3 {
+    color: #5188c4;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-size: 45px;
+}
+
+.container .row .algorithm-page span{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+
+}
+
+.container .row .algorithm-page p{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    text-align: right;
+}
+
+/* algorithm page ====================================================================== */

@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to left bottom, #091d33, #0a1e34, #0a1e35, #0b1f36, #0c2037);
+}
+
+.up {
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    background: #4d7095;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.up.show {
+    right: 10px;
+}
+
+span::selection {
+    color: #4d7095;
+}
+
+p::selection {
+    color: #98a3b0;
+}
+
+body {
+    height: 1000px;
+}
+
+/* start navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+}
+
+
+/* sum menu */
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #FFF;
+    padding-left: 45px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #4d7095;
+}
+
+.navbar .dropdown-item {
+    color: #FFF;
+    background: #000;
+    text-align: center;
+}
+
+.navbar .dropdown-item:hover {
+    color: #FFF;
+    background: #4d7095;
+}
+
+
+.navbar .btn {
+    color: #FFF;
+    font-size: 20px;
+    background: #2c3e50;
+}
+
+.navbar .btn:hover {
+    color: #FFF;
+    background: #4d7095;
+}
+
+.navbar .input-group-text {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.navbar .input-group-text:hover {
+    color: #4d7095;
+}
+
+/* nav bar */
+
+/* courses */
+
+.container .row .col .card {
+    background: #0c2037;
+    border: #2c3e50 solid 1px;
+    margin: 5px;
+}
+
+.container .row .col span {
+    color: #FFF;
+    font-size: 15px;
+}
+
+
+.container .row .col h4 {
+    color: #FFF;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container .row .col h4:hover {
+    color: #4d7095;
+}
+
+.container .row .card img {
+    position: relative;
+}
+
+.container .row .card .fa-bookmark {
+    position: absolute;
+    margin-left: 83%;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #4d7095;
+    background: #FFF;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container .row .card small {
+    position: absolute;
+    color: #FFF;
+    background: #914d95;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.container .row .card .fa-bookmark:hover {
+    color: red;
+}
+
+/* courses */
+
+/* right items */
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 260px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #fff;
+    transition: .3s ease;
+    border: #2c3e50 solid;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+    text-align: right;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: #4d7095;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+}
+
+.container .row .right-item {
+    margin-right: 70px;
+}
+
+.container .row .right-item h4 {
+    text-align: right;
+    color: #FFF;
+}
+
+.container .row .right-item h3 {
+    color: #9e9ea7;
+    font-size: 15px;
+}
+
+.container .row .right-item .cheak {
+    text-align: right;
+}
+
+/* right items */

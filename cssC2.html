@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS2 - Nouvil</title>
+        <!-- website img -->
+        <link rel="icon" href="img/n.jpg">
+    <!-- link animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- linl style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- impor MDB -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <span class="up"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff; background: none;"></i></span>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style=" position: fixed; width: 100%;  z-index: 40;">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" style="color: #FFF;" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav me-auto">
+                    <!-- Right elements -->
+                    <div class="d-flex align-items-center">
+                        <!-- Avatar -->
+                        <div style="margin-right: 10px;" class="dropdown">
+                            <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                    height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                                <li>
+                                    <a class="dropdown-item" href="#">My profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Settings</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="btn">اشترك</button>
+                        </div>
+                        <span class="input-group-text border-0" id="search-addon">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                    <!-- Right elements -->
+                </div>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            <span style="color: red; font-size: 12px;">new</span>
+                            Css game
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="cssFlex.html">Flex Box</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown1">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            خريطه تعلم البرمجة
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="frontend.html">Front End <span
+                                        style="color: red; background: none; font-size: 12px;">web</span></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="backend.html">Back End <span
+                                        style="color: red; background: none; font-size: 12px;">web</span></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="fullstack.html">Full Stack <span
+                                        style="color: red; background: none; font-size: 12px;">web</span></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="cyber.html">الامن السيبرانى</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="jsTrack.html">مسار الجافاسكريبت</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Problem Solving
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="problrmSolving.html">Problem Solving</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="c.html">C</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="c++.html">C++</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="python.html">Python</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="html.html">HTML</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="css.html">CSS</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="algorithms.html">Algorithms</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="allcourses.html">All Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+                <h2 style="color: #FFF;font-size: 50px;"><span style="color: #4d7095;">N</span>ouvil</h2>
+            </a>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <!-- main container -->
+    <div class="main-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 jg" style="height: 550px;">
+                    <div data-aos="fade-right" data-aos-duration="900">
+                        <img class="img" src="img/css.webp">
+                        <button class="btn">التسجيل فى الدورة</button>
+                        <small>يجب التسجيل في هذه الدورة اولاً لكي يتم عرضها</small>
+                        <br>
+                        <h3>Free</h3>
+                        <br>
+                        <h4>Tags</h4>
+                        <span>CSS</span>
+                        <span>CSS course</span>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div data-aos="fade-left" data-aos-duration="900">
+                        <div class="stars">
+                            <span>(20) <small> 4.75</small></span>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                            <i class="fa-regular fa-star fa-sm" style="color: #f4c150;"></i>
+                            <br>
+                        </div>
+                        <h2>course CSS </h2>
+                        <br>
+                        <h4>share:</h4>
+                        <i style="color: #f4c150;" class="fa-brands fa-facebook fa-2xl icon"></i>
+                        <i style="color: #f4c150;" class="fa-brands fa-linkedin fa-2xl icon"></i>
+                        <i style="color: #f4c150;" class="fa-brands fa-github fa-2xl icon"></i>
+                        <br>
+                        <br>
+                        <div class="space">
+                            <div class="row">
+                                <div class="col v1">
+                                    <h4>Total Enrolled</h4>
+                                    <small>3589
+                                    </small>
+                                </div>
+                                <div class="col">
+                                    <h4 class="v2">Categories</h4>
+                                    <small class="v2">Front End</small>
+                                </div>
+                                <br>
+                                <br>
+                                <h4
+                                    style="display: flex; align-items: center; justify-content: right; margin: auto; text-align: right;">
+                                    Description</h4>
+                                <br>
+                                <p>
+                                    تعلم تصميم المواقع بشكل مجاني كامل حيث سنوفر عليك سنوات من التعب فسننقل لك خبرة
+                                    أعوام في
+                                    أيام فتعلم دائما الافضل لأنك ستتعلم في هذه الدورة تصميم الموقع من الألف إلي الياء
+                                    بطريقة
+                                    عملية 100% وباحدث التقنيات والاساليب
+                                </p>
+                                <br>
+                                <h3
+                                    style="display: flex; align-items: center; justify-content: right; margin: auto; font-size: 40px; color: #507399;">
+                                    ما هي CSS؟
+                                </h3>
+                                <p>
+                                    كلمة CSS هي إختصار لجملة Cascading Style Sheet و هي لا تعتبر لغة برمجة بل لغة
+                                    توصيفية و
+                                    تستخدم لعمل تنسيق لموقعك و جعل شكله رائع , تعد لغة ال CSS صديقة للغة ال HTML فتجد
+                                    انه
+                                    يتم ذكرهم مع بعض دائماً اذا تحدثتنا عن تصميم وإنشاء صفحات الويب , ف هاتين اللغتان هم
+                                    اساس تصميم مواقع الويب فمن خلال HTML يتم تصميم هيكل صفحة الويب و بال CSS يتم تنسيق
+                                    ذلك
+                                    الهيكل اذا نفهم من ذلك ان CSS لغة مكملة ل HTML
+                                </p>
+                                <br>
+                                <h3
+                                    style="display: flex; align-items: center; justify-content: right; margin: auto; font-size: 40px; color: #507399;">
+                                    ماذا ستتعلم في هذه الدورة؟
+                                </h3>
+                                <p>
+                                    كلمة CSS هي إختصار لجملة Cascading Style Sheet و هي لا تعتبر لغة برمجة بل لغة
+                                    توصيفية و
+                                    تستخدم لعمل تنسيق لموقعك و جعل شكله رائع , تعد لغة ال CSS صديقة للغة ال HTML فتجد
+                                    انه
+                                    يتم ذكرهم مع بعض دائماً اذا تحدثتنا عن تصميم وإنشاء صفحات الويب , ف هاتين اللغتان هم
+                                    اساس تصميم مواقع الويب فمن خلال HTML يتم تصميم هيكل صفحة الويب و بال CSS يتم تنسيق
+                                    ذلك
+                                    الهيكل اذا نفهم من ذلك ان CSS لغة مكملة ل HTML
+                                </p>
+                                <br>
+                                <h3
+                                    style="display: flex; align-items: center; justify-content: right; margin: auto; font-size: 40px; color: #507399;">
+                                    هل لغة CSS كافية لعمل موقع كامل؟
+                                </h3>
+                                <p>
+                                    بالطبع فان لغة CSS قوية ولا غنى عنها فبدونها لن تستطيع تنسيق صفحات الويب و ستكون
+                                    صفحة
+                                    الويب لديك بيضاء بلا شكل ولا روح لكن لغة css وحدها لا تكفي و كما ذكرنا ان هذه اللغة
+                                    في
+                                    الاساس دورها هو تنسيق html فلن تستطيع استخدام css في الويب بدون لغة html
+                                </p>
+                                <br>
+                                <p>
+                                    هذا الكورس موجه للاشخاص المبتدئين تماماً حيث اننا نعلم جيداً انك لا تعلم اي شئ في
+                                    البرمجة و من هذا المنطلق سوف نبدأ عك من البداية من اساسيات البرمجة و كيفية التواصل
+                                    مع
+                                    الحاسوب
+                                </p>
+                                <br>
+                                <h3
+                                    style="display: flex; align-items: center; justify-content: right; margin: auto; font-size: 40px; color: #507399;">
+                                    ماذا احتاج لكي ادخل الى هذه الدورة؟
+                                </h3>
+                                <br>
+                                <p>
+                                    يجب تعلم لغة HTML قبل دخولك تلك الدورة و ستجد كورس HTML مبسط هنا.
+                                </p>
+                                <br>
+                            </div>
+                            <h3>29 Lessons</h3>
+                            <h4 class="v2">Topics for this course</h4>
+                        </div>
+                        <br>
+                        <!-- nested listgroup -->
+                        <div class="nested">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 1
+                                </a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 1.1</a>
+                                    <a href="#" class="list-group-item text">Item 1.2</a>
+                                    <a href="#" class="list-group-item text">Item 1.3</a>
+                                </div>
+
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 2</a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 2.1</a>
+                                    <a href="#" class="list-group-item text">Item 2.2</a>
+                                    <a href="#" class="list-group-item text">Item 2.3</a>
+                                </div>
+
+
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 3</a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 3.1</a>
+                                    <a href="#" class="list-group-item text">Item 3.2</a>
+                                    <a href="#" class="list-group-item text">Item 3.3</a>
+                                </div>
+
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 4</a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 4.1</a>
+                                    <a href="#" class="list-group-item text">Item 4.2</a>
+                                    <a href="#" class="list-group-item text">Item 4.3</a>
+                                </div>
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 5</a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 5.1</a>
+                                    <a href="#" class="list-group-item text">Item 5.2</a>
+                                    <a href="#" class="list-group-item text">Item 5.3</a>
+                                </div>
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 6</a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 6.1</a>
+                                    <a href="#" class="list-group-item text">Item 6.2</a>
+                                    <a href="#" class="list-group-item text">Item 6.3</a>
+                                </div>
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 7</a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 7.1</a>
+                                    <a href="#" class="list-group-item text">Item 7.2</a>
+                                    <a href="#" class="list-group-item text">Item 7.3</a>
+                                </div>
+                                <a href="#" class="list-group-item title">
+                                    <i class="fa-solid fa-plus fa-lg"></i>
+                                    Item 8</a>
+                                <div class="list-group body">
+                                    <a href="#" class="list-group-item text">Item 8.1</a>
+                                    <a href="#" class="list-group-item text">Item 8.2</a>
+                                    <a href="#" class="list-group-item text">Item 8.3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- nested listgroup -->
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                        <div class="feedback">
+                            <br>
+                            <br>
+                            <h4 style="display: flex; align-items: center; justify-content: right; margin: auto;">
+                                Student Feedback
+                            </h4>
+                            <br>
+                            <div class="box">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3 top">
+                                            <span style="color: #fff; font-size: 50px; display: flex; align-items: center;justify-content: left;
+                                        margin: auto;">4.80</span>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <i class="fa-regular fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <br>
+                                            <h4
+                                                style="display: flex; align-items: center; justify-content: left; margin: auto;">
+                                                Totla <span style="color: #fff; font-size: 25px;">10</span> Ratings</h4>
+                                        </div>
+                                        <div class="col-8">
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <span>5</span>
+                                            <div class="progress" role="progressbar" aria-label="Basic example"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 100%;background: #f4c150;">
+                                                </div>
+                                            </div>
+                                            <h6>4 rating</h6>
+                                            <br>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <span>4</span>
+                                            <div class="progress" role="progressbar" aria-label="Basic example"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                                style="background: #fff;">
+                                                <div class="progress-bar" style="width: 20%;background: #f4c150;"></div>
+                                            </div>
+                                            <h6>1 rating</h6>
+                                            <br>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #fff;"></i>
+                                            <span>3</span>
+                                            <div class="progress" role="progressbar" aria-label="Basic example"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                                style="background: #fff;">
+                                                <div class="progress-bar" style="width: 100%;background: #fff;"></div>
+                                            </div>
+                                            <h6>0 rating</h6>
+                                            <br>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <span>2</span>
+                                            <div class="progress" role="progressbar" aria-label="Basic example"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 100%;background: #fff;"></div>
+                                            </div>
+                                            <h6>0 rating</h6>
+                                            <br>
+                                            <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            <span>1</span>
+                                            <div class="progress" role="progressbar" aria-label="Basic example"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 100%;background: #fff;"></div>
+                                            </div>
+                                            <h6>0 rating</h6>
+                                        </div>
+                                        <hr style="color: #fff; border: #fff solid 2px;">
+                                        <div class="row"
+                                            style="display: flex; justify-content: center; align-items: center; margin: auto;">
+                                            <div class="col" style="margin-left: 5px;">
+                                                <i class="fa-solid fa-user fa-2xl" style="color: #f4c150;"></i>
+                                                <br>
+                                                <h6>User Name</h6>
+                                                <br>
+                                                <h4>2 weeks ago</h4>
+                                                <br>
+                                                <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                                <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                                <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                                <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                                <i class="fa-solid fa-star fa-sm" style="color: #f4c150;"></i>
+                                            </div>
+                                            <div class="col"
+                                                style="display: flex; align-items: center; justify-content: right; margin: auto;">
+                                                <h3>Excellent</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- main container -->
+    <!-- footer -->
+    <footer style="background-color: #deded5;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #fff;">Social Media</h5>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #FFF;text-align: left;">Site Menu</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff;text-align: center;">Home</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Courses</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">About Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Contact Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Blog</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Privacy Policy</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-1" style="letter-spacing: 2px; color: #FFF;">Nouvil</h5>
+                    <br>
+                    <h6 style="color: #FFF; font-size: 25px;">اكادمية نوفيل لتعليم البرمجة</h6>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="color: #FFF;">
+            Created By:
+            <a style="color: #4d7095;"> Fady Adel</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- footer -->
+</body>
+<!-- animation scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- js files -->
+<script src="/js/index.js"></script>
+<script src="/js/particles.js"></script>
+<script src="/js/app.js"></script>
+<!-- bootstrap -->
+<script src="/js/all.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+
+</html>

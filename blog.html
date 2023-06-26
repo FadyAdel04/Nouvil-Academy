@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-اكادميه نوفيل-Nouvil</title>
+        <!-- website img -->
+        <link rel="icon" href="img/n.jpg">
+    <!-- website img -->
+    <link rel="icon" href="img/n.jpg">
+    <!-- link animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- linl style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- impor MDB -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <span class="up"><i class="fa-solid fa-arrow-up fa-lg" style="color: #ffffff; background: none;"></i></span>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" style=" position: fixed; width: 100%;  z-index: 40;">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" style="color: #FFF;" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto">
+                        <!-- Right elements -->
+                        <div class="d-flex align-items-center">
+                            <!-- Avatar -->
+                            <div style="margin-right: 10px;" class="dropdown">
+                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                                    id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                        height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                                    <li>
+                                        <a class="dropdown-item" href="#">My profile</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="btn">اشترك</button>
+                            </div>
+                            <span class="input-group-text border-0" id="search-addon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                        <!-- Right elements -->
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                <span style="color: red; font-size: 12px;">new</span>
+                                Css game
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="cssFlex.html">Flex Box</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                خريطه تعلم البرمجة
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="frontend.html">Front End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="backend.html">Back End <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="fullstack.html">Full Stack <span
+                                            style="color: red; background: none; font-size: 12px;">web</span></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="cyber.html">الامن السيبرانى</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="jsTrack.html">مسار الجافاسكريبت</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Problem Solving
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="problrmSolving.html">Problem Solving</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c.html">C</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="c++.html">C++</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="python.html">Python</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="html.html">HTML</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="css.html">CSS</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="algorithms.html">Algorithms</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="allcourses.html">All Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+                    <h2 style="color: #FFF;font-size: 50px;"><span style="color: #4d7095;">N</span>ouvil</h2>
+                </a>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    <!-- breadcrum -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">الرئيسة</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Blog</li>
+        </ol>
+    </nav>
+    <!-- breadcrum -->
+    <div class="container">
+        <div class="row">
+            <div data-aos="zoom-in-down" data-aos-duration="1300">
+                <div class="tracks">
+                    <span style="color:#2c3e50; position: relative; font-size: 200px;">Blog</span>
+                    <h2 style="color: #FFF; position: absolute; font-size: 100px;">Blog</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blogs -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="2400">
+                    <div class="blog-card">
+                        <img src="img/css.png">
+                        <br>
+                        <small>css,برمجة</small>
+                        <h3>شرح الفرق بين CSS Inline vs Inline-Block vs Block</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="1800">
+                    <div class="blog-card">
+                        <img src="img/fluter.png">
+                        <br>
+                        <small>css,برمجة</small>
+                        <h3>ما هي Flutter Flow</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                    <div class="blog-card">
+                        <img src="img/llvm.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>ما هي LLVM</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="blog-card">
+                        <img src="img/react.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>لماذا يجب تعلم react js</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="2400">
+                    <div class="blog-card">
+                        <img src="img/python.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>Python – Error Types</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="1800">
+                    <div class="blog-card">
+                        <img src="img/programming.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>كيفية أبدأ في تعلم البرمجة</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                    <div class="blog-card">
+                        <img src="img/data.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>دليلك الشامل لتعلم تحليل البيانات من اين أبدأ في مجال تحليل البيانات</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="blog-card">
+                        <img src="img/ai.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>تحدي الذكاء الاصطناعي بين مايكروسوفت وجوجل</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="2400">
+                    <div class="blog-card">
+                        <img src="img/youtube.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>أفضل 10 قنوات عربية لتعليم البرمجة بالمجان</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="1800">
+                    <div class="blog-card">
+                        <img src="img/python2.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>ما هي استخدامات لغة البايثون؟</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="1200">
+                    <div class="blog-card">
+                        <img src="img/quiz.png">
+                        <br>
+                        <small>برمجة</small>
+                        <h3>اختبار جافا سكريبت باللغة العربية</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div data-aos="fade-up" data-aos-duration="600">
+                    <div class="blog-card">
+                        <img src="img/web.png">
+                        <br>
+                        <small>اختبارت نوفيل</small>
+                        <h3>تصميم موقع الكتروني بال html و css و javascript</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blogs -->
+
+    <!-- pagination -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <nav aria-label="Page navigation example" style="display: flex; align-items: center;
+            justify-content: center; margin: auto;">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <!-- pagination -->
+
+    <!-- footer -->
+    <footer style="background-color: #deded5;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #fff;">Social Media</h5>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff; padding-left:20px"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #FFF;text-align: left;">Site Menu</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff;text-align: center;">Home</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Courses</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">About Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Contact Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Blog</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Privacy Policy</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #fff">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-1" style="letter-spacing: 2px; color: #FFF;">Nouvil</h5>
+                    <br>
+                    <h6 style="color: #FFF; font-size: 25px;">اكادمية نوفيل لتعليم البرمجة</h6>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="color: #FFF;">
+            Created By:
+            <a style="color: #4d7095;"> Fady Adel</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- foooter -->
+</body>
+<!-- animation scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- js files -->
+<script src="js/index.js"></script>
+<!-- particles js files -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<!-- bootstrap -->
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+
+</html>
